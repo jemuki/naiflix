@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscription"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/robotoregular"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payments to be made to Pochi la biashara"
+            android:textSize="17sp"
+            android:fontFamily="@font/robotoregular"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deposit a minimun of ksh 20 for a 3 day subscription"
+            android:textSize="17sp"
+            android:fontFamily="@font/robotoregular"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="copy number"
+            android:id="@+id/copynum"
+            android:textSize="17sp"
+            android:textColor="#E50914"
+            android:fontFamily="@font/robotoregular"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JERESON KIBURI"
+            android:textSize="17sp"
+            android:fontFamily="@font/robotoregular"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:id="@+id/verpay"
+            android:text="verify payment"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
